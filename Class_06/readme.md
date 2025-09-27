@@ -1,6 +1,6 @@
-# Class_06: Git & Github Foundation 🚀
+# Class_06: Git & Github 🚀
 
-## Date: 20/Sep/2025 📅
+## Date: 23/Sep/2025 📅
 
 ## Course Details 🎓
 * **Program**: Sheriyans Coding School - Cohort 2.0 💻
