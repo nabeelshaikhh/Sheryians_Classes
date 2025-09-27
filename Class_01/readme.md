@@ -1,4 +1,4 @@
-# Class 01: How the Internet Really Works 🌐
+# Class_01: How the Internet Really Works 🌐
 
 ## Date: 16/Sep/2025 📅
 
