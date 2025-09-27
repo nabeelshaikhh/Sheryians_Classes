@@ -1,6 +1,6 @@
-# Class 00: Orientation 🚀
+# Class_00: Orientation 🚀
 
-## Date: 15 Sep 2025 📅
+## Date: 15/Sep/2025 📅
 
 ## Course Details 🎓
 - **Program**: Sheriyans Coding School - Cohort 2.0 💻
