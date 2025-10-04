@@ -1,4 +1,4 @@
-# 📝 Assignment-01 – Sheryians Cohort 2.0
+# 📝 Assignment_01 – Sheryians Cohort 2.0
 
 This project is part of **Sheryians Coding School – Cohort 2.0**.  
 It demonstrates the concepts and skills learned in the early sessions, including HTML, CSS.
