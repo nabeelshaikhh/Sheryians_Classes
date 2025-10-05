@@ -1,6 +1,6 @@
 # Class_13: Implementing Positioning in CSS 🎯
 
-## Date: 03/Oct/2025 📅
+## Date: 01/Oct/2025 📅
 
 ## Course Details 🎓
 * **Program**: Sheriyans Coding School - Cohort 2.0 💻
