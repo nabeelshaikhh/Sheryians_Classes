@@ -1,0 +1,691 @@
+@font-face {
+  font-family: apple;
+  src: url(assets/fonts/sf-pro-text_regular.woff2);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: apple;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar section css */
+.nav {
+  width: 100%;
+  height: 48px;
+  background-color: #161617;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffffcc;
+  padding: 15px 0px 15px 0px;
+  font-size: 12px;
+}
+
+.nav a i {
+  font-size: 17px;
+    line-height: 0.8;
+}
+
+/* Hero Section Css */
+.hero-section {
+  width: 100%;
+  height: 78%;
+  background-image: url(assets/img/hero-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: #000000; */
+}
+
+.hero-section h1 {
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.hero-section h3 {
+  color: #ffffff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+}
+
+.hero-section-btns {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.hero-section-btn1 {
+  padding: 12px 20px;
+  background-color: #0077ed;
+  border-radius: 30px;
+  border: none;
+}
+
+.hero-section-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.hero-section-btn2 {
+  padding: 12px 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+}
+
+.hero-section-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* 2nd Section css */
+.sec-section {
+  width: 100%;
+  height: 78%;
+  background-image: url(assets/img/sec-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.sec-section h1 {
+  color: #000000;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.sec-section h3 {
+  color: #000000;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+}
+
+.sec-section-btns {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.sec-section-btn1 {
+  padding: 12px 20px;
+  background-color: #0077ed;
+  border-radius: 30px;
+  border: none;
+}
+
+.sec-section-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.sec-section-btn2 {
+  padding: 12px 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+}
+
+.sec-section-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Third section CSS */
+.third-section {
+  width: 100%;
+  height: 78%;
+  background-image: url(assets/img/third-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.third-section h1 {
+  color: #000000;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.third-section h3 {
+  color: #000000;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+}
+
+.third-section-btns {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.third-section-btn1 {
+  padding: 12px 20px;
+  background-color: #0077ed;
+  border-radius: 30px;
+  border: none;
+}
+
+.third-section-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.third-section-btn2 {
+  padding: 12px 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+}
+
+.third-section-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Fourth section CSS */
+.fourth-section {
+  width: 100%;
+  height: 580px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+/* Fourth Section1 Css */
+.fourth-section1 {
+  width: 50%;
+  height: 580px;
+  background-image: url(assets/img/fourth-img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.fourth-section1 img {
+  color: #000000;
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fourth-section1 p {
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.fourth-section1-btns {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fourth-section1-btn1 {
+  background-color: #0077ed;
+  line-height: 1.428;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.fourth-section1-btn2 {
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.fourth-section1-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Fourth Section2 Css */
+.fourth-section2 {
+  width: 50%;
+  height: 580px;
+  background-image: url(assets/img/fourth-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.fourth-section2 h1 {
+  color: #000000;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.fourth-section2 p {
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+}
+
+.fourth-section2-btns {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fourth-section2-btn1 {
+  background-color: #0077ed;
+  line-height: 1.428;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.fourth-section2-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.fourth-section2-btn2 {
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.fourth-section2-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+
+/* Fifth section CSS */
+.fifth-section {
+  width: 100%;
+  height: 580px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+/* Fourth Section1 Css */
+.fifth-section1 {
+  width: 50%;
+  height: 100%;
+  background-image: url(assets/img/fifth-img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.content-wrapper{
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    right: 20%;
+}
+
+.fifth-section1 h1 {
+  color: #ffffff;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.fifth-section1 p {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.fifth-section1-btns {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fifth-section1-btn1 {
+  background-color: #0077ed;
+  line-height: 1.428;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.fifth-section1-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.fifth-section1-btn2 {
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.fifth-section1-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Fifth Section2 Css */
+.fifth-section2 {
+  width: 50%;
+  height: 580px;
+  background-image: url(assets/img/fifth-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.fifth-section2 h1 {
+  color: #000000;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.fifth-section2 p {
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+  text-align: center;
+}
+
+.fifth-section2-btns {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fifth-section2-btn1 {
+  background-color: #0077ed;
+  line-height: 1.428;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.fifth-section2-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.fifth-section2-btn2 {
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.fifth-section2-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Sixth Section CSS */
+.sixth-section {
+  width: 100%;
+  height: 580px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+/* sixth Section1 Css */
+.sixth-section1 {
+  width: 50%;
+  height: 100%;
+  background-image: url(assets/img/sixth-img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.sixth-section1 img {
+  color: #000000;
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sixth-section1 p {
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: apple;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.sixth-section1-btns {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sixth-section1-btn1 {
+  background-color: #0077ed;
+  line-height: 1.428;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.sixth-section1-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.sixth-section1-btn2 {
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.sixth-section1-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* sixth Section2 Css */
+.sixth-section2 {
+  width: 50%;
+  height: 580px;
+  background-image: url(assets/img/sixth-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.sixth-section2 img {
+  color: #000000;
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sixth-section2 p {
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: apple;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.sixth-section2-btns {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sixth-section2-btn1 {
+  background-color: #0077ed;
+  line-height: 1.428;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.sixth-section2-btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sixth-section2-btn2 {
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid;
+  border-color: #0077ed;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.sixth-section2-btn2 a {
+  color: #0077ed;
+  text-decoration: none;
+  font-size: 14px;
+}
